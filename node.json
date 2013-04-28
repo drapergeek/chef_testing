@@ -1,5 +1,7 @@
 {
-  "run_list": [
-              "recipe[basic_setup]",
-              "recipe[jenkins]"]
+  "run_list":
+    [
+      "recipe[basic_setup]",
+      "recipe[java]"
+    ]
 }
